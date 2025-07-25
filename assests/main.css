@@ -1,0 +1,66 @@
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.category-card{
+  background-color: #fff2e3;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 60);
+}
+.category-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.icon-box {
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.browse-link {
+  color: #FF6636;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.browse-link:hover {
+  text-decoration: underline;
+  color: #FF6636;
+}
+
+.top-selling-section{
+    background-color: #E9EAF0;
+}
+
+.course-card {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.course-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 0.95rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 0.4em 0.6em;
+}
+
+.footer.container{
+    background-color: #363B47;
+}
